@@ -20,7 +20,7 @@ main{
     
 }
 
-section#telefone{
+#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,6 +30,7 @@ section#telefone{
     background: url(../imagens/frame-iphone.png) no-repeat;
     
 }
+
 iframe#tela{
     position: relative;
     top: 77px;
@@ -37,4 +38,23 @@ iframe#tela{
     height: 473px;
     width: 269px;
     border-radius: 10px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section img{
+    width: 50px;
+    margin-right: 30px;
+    margin-top: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404); 
+    box-sizing: border-box;   
+}
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    transition: transform .3s, border .5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
 }
